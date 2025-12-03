@@ -1,0 +1,154 @@
+# Visual Studio 2025 / .NET C# projects - sensible defaults
+# Place this file at the root of your repository.
+
+########################################
+# Build / output folders
+########################################
+# Build outputs
+[Bb]in/
+[Oo]bj/
+**/[Bb]in/
+**/[Oo]bj/
+
+# Publish output
+publish/
+**/publish/
+*.publish/
+*.publish.xml
+
+# Package output
+*.nupkg
+*.snupkg
+
+########################################
+# Visual Studio
+########################################
+.vs/                     # Visual Studio workspace settings (suo, sqlite DB, etc.)
+*.suo
+*.user
+*.userprefs
+*.sdf
+*.opendb
+*.VC.db
+
+# Visual Studio database files
+*.dbmdl
+
+# Visual Studio performance file
+*.vsp
+*.vspx
+
+# Visual Studio Code workspace
+.vscode/
+
+########################################
+# Rider / JetBrains
+########################################
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+########################################
+# MSBuild / temporary files
+########################################
+*.cache
+*.log
+*.tlog/
+*.lastbuildstate
+*.builds/
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+
+########################################
+# NuGet
+########################################
+# NuGet packages
+packages/
+project.lock.json
+artifacts/
+.nuget/
+.nuget/packages/
+
+# NuGet v3 global packages folder (optional if machine specific)
+# Uncomment if you have a local packages folder in repo
+# .nuget/packages/
+
+########################################
+# Test results and coverage
+########################################
+TestResults/
+**/TestResults/
+*.trx
+coverage/
+*.coverage
+*.coveragexml
+*.lcov
+
+########################################
+# Azure / Functions / Secrets
+########################################
+local.settings.json       # Azure Functions local settings (secrets)
+secrets.json              # user secrets (if accidentally stored)
+
+########################################
+# Publishing / deployment / IIS
+########################################
+PublishProfiles/
+*.Publish.xml
+*.azurePubxml
+*.user.publishtargets
+
+########################################
+# Database / Local Data
+########################################
+*.mdf
+*.ldf
+*.ndf
+
+########################################
+# Rider / Resharper / 3rd-party tools
+########################################
+_ReSharper*/
+*__ReSharper*/
+_ReSharper.Caches/
+*.resharper
+
+# StyleCop / SonarLint
+*.stylecop
+.sonarlint/
+
+########################################
+# Front-end / node (if present)
+########################################
+node_modules/
+bower_components/
+jspm_packages/
+
+########################################
+# Misc
+########################################
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# dotnet local tool cache / temp
+.vsconfig
+
+# Dotnet publish temporary files
+publish/
+
+# Ignore user-specific or local files you likely don't want committed:
+*.local
+*.local.settings.json
+
+# End: Add project-specific ignores below as needed
