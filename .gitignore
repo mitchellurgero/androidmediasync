@@ -23,7 +23,7 @@ publish/
 ########################################
 # Visual Studio
 ########################################
-.vs/                     # Visual Studio workspace settings (suo, sqlite DB, etc.)
+.vs
 *.suo
 *.user
 *.userprefs
