@@ -1,6 +1,11 @@
 ﻿# Android Media Sync
 Music sync tool that is very basic, sync to an android device from the current users Music library in Windows. Detects the music folder on Android, including SD Cards.
 
+## Features
+- Basic one-way sync from the PC to a Mobile device running Android 6.0+
+- Basic media playback for listening to music while sync'ing the device
+- Can detect the Android device automatically, including SD Cards on the Android device and will let you choose between internal and external storages.
+
 ![Screenshot of version 1.0.2.0](https://github.com/mitchellurgero/androidmediasync/blob/main/screenshot1.0.2.0.png?raw=true)
 
 ## How To Use
