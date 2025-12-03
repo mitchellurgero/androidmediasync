@@ -24,6 +24,7 @@ publish/
 # Visual Studio
 ########################################
 .vs
+.vs/
 *.suo
 *.user
 *.userprefs
