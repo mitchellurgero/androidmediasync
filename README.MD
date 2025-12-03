@@ -10,13 +10,16 @@ Then just launch `mediasync.exe`!
 ## Troubleshooting
 Some common problems are listed below, but don't hesitate to open an issue if you need further help or have more questions!
 
-- *I was asked to installed .NET Desktop Runtime, what do I do?*
+- ***I was asked to installed .NET Desktop Runtime, what do I do?***
+
 You can download this runtime from Microsoft [here](https://dotnet.microsoft.com/en-us/download/dotnet/8.0). A more direct link is [here](https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.22/windowsdesktop-runtime-8.0.22-win-x64.exe)
 
-- *My Android device was not detected, how can I fix this?*
+- ***My Android device was not detected, how can I fix this?***
+
 Make sure you are running at least Android 6.0+, then make sure the device is in `File Transfer` mode.
 
-- *My device was detected, but it said it could not find a Music folder!*
+- ***My device was detected, but it said it could not find a Music folder!***
+
 Make sure you are running at least Android 6.0+, then make sure the device is in `File Transfer` mode. If you are in `File Transfer` mode, then make sure a folder called `Music` exists in the root directory of the device.
 
 
